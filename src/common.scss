@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+.button {
+    padding: 5px;
+    border: 1px solid $primary;
+    &__solid {
+        background-color: $primary;
+        color: $white;
+    }
+    &__bordered {
+        background-color: $white;
+        color: $primary;
+    }
+}
+
+.input {
+    padding: 5px;
+    border: 1px solid $primary;
+}

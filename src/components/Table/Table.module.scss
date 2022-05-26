@@ -1,0 +1,24 @@
+@import '../../variables.scss';
+@import '../../common.scss';
+
+.tables {
+    display: flex;
+    flex-direction: column;
+}
+.table {
+    display: flex;
+    flex: 0 1 25%;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid $primary;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 321px) {
+    .tables {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
